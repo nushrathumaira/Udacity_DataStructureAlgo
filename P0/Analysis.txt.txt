@@ -1,0 +1,7 @@
+1. For Task0, it requires retrieving one record from specific memory address, so it takes constant time, 0(1)
+2. For Task1, it reiterates through combined array of texts and calls, and do constant time operations, so total complexity is O(n) as n is input size.
+3. For Task2, for n element of the calls list  only part of each element gets compared each time, so time complexity is 0(n).
+4. For Task3, from_bangalore and to_bangalore phone calls count takes O(n) and sorted function of python does a merge sort so takes O(nlogn) . So total complexity is O(nlogn).
+5. For Task4, iterating two lists takes linear time each, So O(n) followed by sorted which takes O(nlong), followed by linear time to loop through for printing so another O(n).So
+overall time complexity is O(nlogn).
+
